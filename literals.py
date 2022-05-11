@@ -1,0 +1,1 @@
+literals = ['list (array)', 'tuples', 'dict (object)', 'set']
