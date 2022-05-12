@@ -13,4 +13,13 @@ def y (cycles):
     print(final)
 
 
-y(range(1,11))
+# y(range(1,11))
+
+
+addLam = lambda a, b : final.append(a + b)
+def lamY (cycles):
+    for num in cycles:
+        addLam(final[-1], final[-2])
+    return final
+
+print(lamY(range(0,21)))
